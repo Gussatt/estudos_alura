@@ -1,62 +1,111 @@
-.titulo-principal{
-
-    padding-left:20px;
-}
-
-body{
-
-    
- }
-
-#banner{
-    width:100%
+header{
+    background-color: #BBBBBB;
+    padding:20px 0;
 
 }
 
-.principal{
-
-    background-color:#CCCCCC;
-    padding:30px;
+.caixa{
+    position: relative;
+    width:940px;
+    margin: 0 auto;
 }
 
-.titulo-centralizado{
 
-    text-align:center;
- }
-
-p{
-    text-align:center;
-        
+nav{
+    position:absolute;
+    top: 110px;
+    right: 20px;
 }
 
-#missao{
-    
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+
+footer{
+    text-align: center;
+    background: url("background.jpg");
+    padding:30px 0;
+
+}
+
+.cw{
+    color: white;
+    font-size: 8px;
+}
+
+main{
+    width:940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    margin:0 0 10px;
+    display:block;
     font-size:20px;
 }
 
-em strong{
-    color:red;
-}   
-.beneficios{
-
-    background-color:#FFFFFF;
-    padding:20px;
+.input-padrao{
+    margin: 0 0 20px;
+    display:block;
+    padding:10px 25px;
+    width:50%;
+}
+.select{
+    margin: 0 0 20px;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width:40%;
+    height:60px;
+    display:block;
+    padding:10px 25px;
+    background: darkgreen;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor:pointer;
+    transition: 1s all;
+}
+.enviar:hover{
+    background:lightgreen;
+    transform:scale(1.2);
+    
 }
 
-ul {
-
-    display: inline-block;
-    vertical-align: top;
-    width:20%;
-    margin-right:15%
-
-}
-.itens {
-
-    font-style: italic;
+table {
+    margin: 20px 0 40px;
 }
 
-.imagembeneficios{
-
-    width: 50%;
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
 }
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
